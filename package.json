@@ -1,0 +1,46 @@
+{
+  "name": "suptho-editor-interview",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@uiw/react-md-editor": "^3.6.0",
+    "classnames": "^2.3.1",
+    "markdown-it": "^13.0.0",
+    "next": "^12.1.4",
+    "next-remove-imports": "^1.0.6",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-markdown-editor-lite": "^1.3.2",
+    "simple-text-editor-react": "0.0.6"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.17.0",
+    "eslint": "^8.13.0",
+    "eslint-plugin-react": "^7.29.4",
+    "prettier": "^2.6.2",
+    "svg-inline-loader": "^0.8.2"
+  },
+  "scripts": {
+    "dev": "next"
+  },
+  "eslintConfig": {
+    "parser": "babel-eslint",
+    "extends": [
+      "eslint:recommended",
+      "plugin:react/recommended"
+    ],
+    "env": {
+      "node": true,
+      "es6": true,
+      "jest": true,
+      "browser": true
+    },
+    "rules": {
+      "no-console": 0
+    }
+  },
+  "prettier": {
+    "singleQuote": true
+  }
+}
